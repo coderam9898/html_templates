@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- code commenting -->
+<!-- press ctrl + ? to comment a line -->
+<!-- This head section of the page  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this section is used to link pages from other source -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="src/icon/favicon.png" type="image/x-icon">
+    <!-- for free icon goto https://www.flaticon.com/  or just search your desired icon on internet-->
+
+
+    <!-- end -->
+    <title>Page Title</title>
+</head>
+<!-- This is the body section of page. Here all the code is written to make contents appear in the browser viewing area -->
+<style>
+    /* you can declare inpage style here */
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .header {
+        background: rgb(201, 35, 35);
+        color: #f1f1f1;
+        height: 40px;
+        position: sticky;
+    }
+    
+    .header a {
+        text-decoration: none;
+        color: #f1f1f1;
+        float: right;
+        padding-right: 10px;
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+    
+    section {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        float: left;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    #home {
+        background-color: rgb(104, 131, 104);
+    }
+    
+    #about {
+        background-color: rgb(207, 116, 40);
+    }
+</style>
+
+<body>
+    <!-- ALL other tags are declered here for apparence in the website -->
+    <!-- SAMPLE PARAGRAPH -->
+
+
+    <!-- for single page websites you can divide body into multiple section usign section tag -->
+    <!-- navigation bar -->
+    <div class="header">
+
+        <a href="#home"> home</a>
+        <a href="#about"> about</a>
+
+    </div>
+    <div class="content">
+
+    </div>
+    <section id="home">
+        hello
+    </section>
+    <section id="about">
+        hehhoo
+    </section>
+
+</body>
+
+</html>
+<script>
+    // you can declare inpage javascript here
+</script>
+<!-- this down one script tag link your javascript file from another location ie. same project or internet -->
+<script src="js/script.js"></script>

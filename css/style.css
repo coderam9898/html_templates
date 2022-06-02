@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* be sure linking this file to the page you are trying to style first */
+
+
+/* continue the formatting from here */
+
+
+/* use .classname or #ID to style the html elements */
+
+
+/* write tag name directly to style the tag in html page */
+
+html {
+    scroll-behavior: smooth;
+}
